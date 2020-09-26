@@ -1,0 +1,62 @@
+.inicio{
+    background-color: rgb(196, 255, 206);
+    background-image: url(https://www.wallpapertip.com/wmimgs/80-807358_fondos-degradados-colores-claros.jpg);
+    height: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border: solid;
+}
+.foto{
+    float: left;
+    height: 280px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 180px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.pdf{
+    width: 110px;
+    height: 110px;
+}
+.botones{
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.buton{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    height: 30px;
+}
+
+.buton:hover{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+.card{
+    text-align: center;
+}
+.titulo{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.texto{
+    color: grey;
+}
+.certificado{
+    height: 320px;
+    width: 460px;
+    border-style: double;
+}
+.list-group-item-info{
+    list-style-type: circle;
+}
+.rig{
+    text-align: right;
+}
+.card-body{
+    background-color: rgb(243, 243, 243);
+}
