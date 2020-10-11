@@ -5,6 +5,8 @@
     <title>Curriculim Vitae</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <body>
     <div class="inicio">
@@ -17,14 +19,17 @@
     </div>
 
     <div class="botones">
-        <a href="#estudios"><button class="buton">Estudios</button></a>
-        <a href="#certificados"><button class="buton">Certificados</button></a>
-        <a href="https://github.com/kevinramayo/investigadorprivado" target="_blank"><button class="buton">Repositorio Github</button></a>
+        <a href="#estudios"><button class="button is-primary is-light">Estudios</button></a>
+        <a href="#certificados"><button class="button is-primary is-light">Certificados</button></a>
+        <a href="https://github.com/kevinramayo/investigadorprivado" target="_blank"><button class="button is-primary is-light">Repositorio Github</button></a>
+        <a href="tesla/index.html"><button class="button is-link is-light">Tesla</button></a>
+        <a href="card/index.html"><button class="button is-link is-light">Cards</button></a>
+        <a href="blog/index.html"><button class="button is-link is-light">Blog</button></a>
     </div>
     
     <br>
     <div class="card">
-        <div class="card-body">
+        <div class="card-content">
           <h3 class="titulo">Presentacion</h3>
           <h5 class="texto">Estudiante de preparatoria, pasante en tecnico en programacion. Con 2 años en la especialidad y conocimientos basicos de programacion. haciendo uso de los lenguajes: python, php, javascript y c#</h5>
         </div>
@@ -32,20 +37,20 @@
     <br>
 
     <div class="container">
-        <div class="row">
-            <div class="col-7">
+        <div>
+            <div class="content">
               <h3 class="titulo" id="certificados">Certificados</h3>
-              <ol class="list-group-item-info">
+              <ol type="1">
                 <li><h5>Certificado en el lenguaje de etiquetas HTML, proporcionado por sololearn y contando con un conocimiento Moderado.</h5></li>
                 <li><h5>Certificado en el lenguaje de javaScript, conocimiento Basico.</h5></li>
                 <li><h5>Certificado en el lenguaje de PHP, conocimiento Basico.</h5></li>
                 <li><h5>Certificado en el lenguaje de diseño grafico CSS, conocimiento Moderado.</h5></li>
                 <li><h5>Certificado en el lenguaje de SQL, conocimiento Basico.</h5></li>
                 <li><h5>Certificado en JQuery, conocimiento Basico.</h5></li>
-                <p class="rig"><a href="https://www.sololearn.com/Profile/17491269/" target="_blank">Consulta mi perfil de SoloLearn</a></p>
+                <p><a href="https://www.sololearn.com/Profile/17491269/" target="_blank">Consulta mi perfil de SoloLearn</a></p>
               </ol>
           </div>
-          <div class="col-5">
+          <div class="level-item has-text-centered">
               <img class="certificado" src="HTML.jpg" alt="Certificado">
           </div>
         </div>
@@ -60,8 +65,8 @@
     </div>
 
     <br>
-    <footer class="card-footer">
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <footer>
+        <div class="card">© 2020 Copyright:
           <a>Mi curriculum Vitae Todos los Derechos Reservados</a>
         </div>
     </footer>
